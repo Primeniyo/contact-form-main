@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Karla";
+  background-color: hsl(148, 38%, 91%);
+  height: 100vh;
+  width: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20%;
+}
+
+.container {
+  display: block;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 100%);
+  height: 600px;
+  width: 550px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.name {
+  display: flex;
+  gap: 20px;
+}
+
+.submit button {
+  width: 90%;
+  height: 40px;
+  background-color: hsl(169, 82%, 27%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.email input {
+  width: 98%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.name input {
+  width: 240px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.query button {
+  width: 248px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+textarea {
+  width: 98%;
+  height: 80px;
+  border-radius: 5px;
+}
